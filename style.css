@@ -1,0 +1,438 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: AtemicaSans;
+    src: url("/font/AtemicaSans_PERSONAL_USE_ONLY.otfç");
+}
+@font-face{
+    font-family: Vintage;
+    src: url("/font/Vintage.ttf");
+}
+@font-face{
+    font-family: BriemHand;
+    src: url("/font/BriemHand-VariableFont_wght.ttf");
+}
+
+#containerprincipal{
+    width: 100vw;
+    margin: auto;
+    background-color:#0e1d21;
+    overflow: hidden;
+}
+#divIniciobarra{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    width: 100vw;
+    height: 5vw;
+    background-color:#0e1d21;
+}
+#divInicio{
+    width: 100vw;
+    height: 45vw;
+    background-color:#0e1d21;
+}
+#miporta{
+    width: 14vw;
+    height: 4vw;
+    position: relative;
+    top: -0.5;
+    left: -12vw;
+    font-family: Vintage;
+    color: #fff;
+    font-size: 2vw;
+}
+#barra{
+    padding: 1vw;
+    font-size: 1.4vw;
+    font-family: BriemHand;
+    display: flex;
+    justify-content: space-around;
+    width: 65vw;
+    height: 4vw;
+    background-color: #122e34;
+    border-bottom-left-radius: 5vw;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+#redireccion:hover{
+    color: #69818D;
+    transform: scale(1.2);
+}
+#img0{
+    position: relative;
+    top: 0.5vw;
+    width: 4vw;
+    height: 3vw;
+}
+#cuadroTexto{
+    width: 50vw;
+    height: 20vw;
+    position: relative;
+    top: 10vw;
+    left: 10vw;
+    color: #fff;
+    font-family: AtemicaSans;
+    
+}
+#divNombre{
+    width: 50vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
+#botonsobremi{
+    position: relative;
+    top: -10vw;
+    left: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a7075;
+    width: 8vw;
+    height: 2vw;
+    font-size: 1vw;
+    border-radius: 5vw;
+    box-shadow: #122e34 0.2vw 0.6vw 0.3vw 0vw;
+    font-family:AtemicaSans ;
+}
+#divminiDes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+    height: 20vw;
+    font-size: 2.5vw;
+}
+#circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -15vw;
+    left: 60vw;
+    width: 30vw;
+    height: 26vw;
+    background-color: #122e34;
+    border-top-left-radius: 10vw;
+    border-bottom-right-radius: 10vw;
+    border-style: dotted ; 
+}
+#nombre{
+    font-family: BriemHand;
+    color: #0a7075;
+}
+#divImagen{
+    width: 6vw;
+    height: 10vw;
+}
+#img1{
+    position: relative;
+    top: -45vw;
+    width: 30vw;
+    height: 35vw;
+    left: 60vw;
+}
+#divSobremi{
+    width: 100vw;
+    height: 55vw;
+    border: 1px solid black;
+    background-color:#69818D;
+}
+#botonsobremi:hover{
+    background-color: #143e49;
+    transform: scale(1.1);
+}
+#TituloAceracade{
+    position: relative;
+    top: 4vw;
+    left: 38vw;
+    width: 40vw;
+    height: 5vw;
+    font-size: 4vw;
+    color:#0e1d21;
+    font-family: BriemHand;
+    font-weight: 600;
+}
+#barraLateral{
+    position: relative;
+    left: 95vw;
+    width: 5vw;
+    height: 40vw;
+    background-color: #0e1d21;
+    border-radius: 5vw;
+}
+#textosobremi{
+    position: relative;
+    top: -30vw;
+    left: 38vw;
+    width: 45vw;
+    height: 20vw;
+    color: #122e34;
+    font-family: AtemicaSans;
+    font-size: 2vw;
+}
+#fotoMia{
+    position: relative;
+    left: 2vw;
+    top: -60vw;
+    width: 30vw;
+    height: 40vw;
+    transform: rotate(-5deg);
+    border: #0e1d21 5px solid;
+    box-shadow: #122e34 1vw 1vw 5vw 0vw;
+}
+#imgArt{
+    width: 35vw;
+    height: 40vw;
+}
+#opci1{
+    position: relative;
+    top: 2vw;
+    width: 5vw;
+    height: 12vw;
+    border: 1px solid  #0a7075;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icons{
+    width: 3vw;
+}
+#icons:hover{
+    transform: scale(1.1);
+}
+#divProyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    width: 100vw;
+    height: 50vw;
+    border: 1px solid black;
+    background-color:#0e1d21;
+}
+#container_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw; 
+}
+#Card_proyectos{
+    position: relative;
+    left: -12vw;
+    width: 20vw;
+    height: 28vw;
+    border-top-right-radius: 5vw;
+    border-top-left-radius: 5vw;
+    background-color:#69818D;
+    box-shadow:#122e34 0vw 1vw 2vw 0vw ;
+  
+}
+#Card_img{
+    border-top-right-radius: 5vw;
+    border-top-left-radius: 5vw;
+    width: 20vw;
+    height: 12.5vw;
+    pointer-events: none;
+    transition: 0.5s;
+}
+#info{
+    display: flex;
+    text-align: center;
+    font-size: 1.2vw;
+    color: #0e1d21;
+    padding: 1vw;
+    font-family:AtemicaSans ;
+}
+#divBotonIR{
+    position: relative;
+    top: 1vw;
+    left: 5.8vw;
+    padding: 0.5vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: AtemicaSans;
+    color: #fff;
+    border-radius: 5vw;
+    width: 8vw;
+    height: 3vw;
+    background-color: #0e1d21;
+}
+#divBotonIR:hover{
+    background-color: #143e49;
+}
+#TituloProyectos{
+    position: relative;
+    top: -20vw;
+    left:10vw;
+    font-size: 4vw;
+    color:#69818D;
+    font-family: BriemHand;
+    font-weight: 600;
+}
+
+#Card_proyectos:hover,
+#Card_img:hover,
+#capa:hover{
+    box-shadow:#f7f8f8 0vw 0.6vw 1vw 0vw ;
+    transform: scale(1.1);
+}
+#divHabiServi{
+    width: 100vw;
+    height: 50vw;
+    border: 1px solid black;
+    background-color:#69818D;
+    border-bottom-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+}
+#divContacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 6vw;
+    background-color:#0e1d21;
+}
+#titulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 7vw;
+    top: 7vw;
+    width: 60vw;
+    height: 5vw;
+    font-size: 3vw;
+    font-family: BriemHand;
+    font-weight: 600;
+}
+#CuadroTexto{
+    display: flex;
+    text-align: justify;
+    justify-content: justify;
+    position: relative;
+    font-size: 1.6vw;
+    left: 7vw;
+    top: 8vw;
+    width: 60vw;
+    height: 20vw;
+    padding: 2vw;
+    font-family: AtemicaSans;
+}
+#CuadroImgAbst{
+    position: relative;
+    left: 70vw;
+    top: -15vw;
+    width: 20vw;
+    height: 20vw;
+    border-top-left-radius: 8vw;
+    border-bottom-right-radius: 8vw;
+    border-bottom-left-radius: 8vw;
+    background-color:  #0e1d21;
+}
+h1{
+    font-size: 3vw;
+    font-weight: 600;
+    color: #0b0c0c;
+    font-family: BriemHand;
+}
+#ImgAbst{
+    position: relative;
+    left: -10vw;
+    top: -7vw;
+    width:30vw;
+    height: 30vw; 
+}
+#tituloL{
+    position: relative;
+    left: 10vw;
+    top: -15vw;
+    width: 40vw;
+    height: 5vw;
+    font-size: 2vw;
+    color: #0b0c0c;
+    font-family: BriemHand;
+    font-weight: 600;
+}
+#barraLenguajes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -2vw;
+    top: -18vw;
+    width: 80vw;
+    height: 6vw;
+    background-color: #0e1d21;
+    overflow: hidden;
+    position: relative;
+    margin: 2vw auto;
+    border-radius: 3vw;
+}
+
+#carrusel {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    animation: Carrusel 15s linear infinite;
+  
+}
+
+#lenguajes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 6vw;
+    box-shadow: #69818D 0.5vw 1vw 2vw 0vw;
+    margin-right: 1vw;
+}
+@keyframes Carrusel{
+    0%{
+        transform: translateX(10vw);
+    }
+    100%{
+        transform: translateX(-80vw);
+    }
+
+}
+
+#iconsLenguaje {
+    width: 6vw;
+    height: 5vw;
+}
+#Footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 40vw;
+    height: 4vw;
+    color: #69818D;
+    font-size: 1.4vw;
+    font-weight: 600;
+}
+#iconsConcta{
+    width: 2vw;
+    height: 2vw;
+}
+#iconsConcta:hover{
+    transform: scale(1.6);
+}
+#check{
+    display: none;
+}
+#Cerrar{
+    display: none;
+}
+#menu{
+    display: none;
+}
