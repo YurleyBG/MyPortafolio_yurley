@@ -14,7 +14,7 @@ se cuenta un poco sobre mi mis proyectos y habilidades y la manera en la que pue
 | 5 | Style1 |css que aplica responsive|
 
 ## Link
-[portafolio]( http://portafolioyulibg.netlify.app)3
+[portafolio]( http://portafolioyulibg.netlify.app)
  
 
  ## Tecnología utilizadas
