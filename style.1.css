@@ -312,7 +312,7 @@
     }
     #divHabiServi{
         width: 100vw;
-        height: 200vw;
+        height: 210vw;
         border: 1px solid black;
         background-color:#69818D;
         border-bottom-right-radius: 5vw;
@@ -446,5 +446,66 @@
     }
     #iconsConcta:hover{
         transform: scale(1.6);
+    }
+    #tituloL1{
+        position: relative;
+        left: 22vw;
+        top: 70vw;
+        width: 60vw;
+        height: 5vw;
+        font-size: 5vw;
+        color: #0b0c0c;
+        font-family: BriemHand;
+        font-weight: 600;
+    }
+    #barraHabiBlanda {
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        position: relative;
+        left: 1vw;
+        top: 75vw;
+        width: 96vw;
+        height: 6vw;
+        margin: 2vw auto;
+        border-radius: 3vw;
+    }
+    #botonhabi{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 1vw;
+        width: 13vw;
+        height: 8vw;
+        background-color: #0e1d21;
+        color: #f7f8f8;
+        font-size: 1.5vw;
+        border-radius: 5vw;
+        box-shadow: #0b0c0c 0.5vw 0vw 0.8vw 0vw;
+        font-family: BriemHand;
+       
+    }
+    #botonhabi:hover{
+        background-color: #102f36;
+        transform: scale(1.1);
+    }
+    #botonhabi1{
+        font-family: BriemHand;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 1.8vw;
+        width: 13vw;
+        height: 8vw;
+        background-color: #0e1d21;
+        color: #f7f8f8;
+        font-size: 1.3vw;
+        border-radius: 5vw;
+        box-shadow: #0b0c0c 0.5vw 0vw 0.8vw 0vw;
+       
+    }
+    #botonhabi1:hover{
+        background-color: #102f36;
+        transform: scale(1.1);
     }
 }

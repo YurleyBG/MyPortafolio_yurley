@@ -288,7 +288,7 @@ a{
 }
 #divHabiServi{
     width: 100vw;
-    height: 50vw;
+    height: 63vw;
     border: 1px solid black;
     background-color:#69818D;
     border-bottom-right-radius: 5vw;
@@ -296,12 +296,15 @@ a{
 }
 #divContacto{
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
+    position: relative;
+    top: 0vw;
     width: 100vw;
     height: 6vw;
     background-color:#0e1d21;
 }
+
 #titulo{
     display: flex;
     text-align: center;
@@ -351,6 +354,17 @@ h1{
     top: -7vw;
     width:30vw;
     height: 30vw; 
+}
+#tituloL1{
+    position: relative;
+    left: 10vw;
+    top: -12vw;
+    width: 40vw;
+    height: 5vw;
+    font-size: 2vw;
+    color: #0b0c0c;
+    font-family: BriemHand;
+    font-weight: 600;
 }
 #tituloL{
     position: relative;
@@ -410,10 +424,15 @@ h1{
     width: 6vw;
     height: 5vw;
 }
+#iconsLenguaje:hover + #carrusel {
+    animation-play-state: paused;
+    transform: scale(1.1);
+}
 #Footer{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    position: relative;
     width: 40vw;
     height: 4vw;
     color: #69818D;
@@ -435,4 +454,54 @@ h1{
 }
 #menu{
     display: none;
+}
+#barraHabiBlanda {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: relative;
+    left: -2vw;
+    top: -15vw;
+    width: 80vw;
+    height: 6vw;
+    margin: 2vw auto;
+    border-radius: 3vw;
+}
+#botonhabi{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1vw;
+    width: 10vw;
+    height: 5vw;
+    background-color: #0e1d21;
+    color: #f7f8f8;
+    font-size: 1vw;
+    border-radius: 5vw;
+    box-shadow: #0b0c0c 0.5vw 0vw 0.8vw 0vw;
+    font-family: BriemHand;
+   
+}
+#botonhabi:hover{
+    background-color: #102f36;
+    transform: scale(1.1);
+}
+#botonhabi1{
+    font-family: BriemHand;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1.8vw;
+    width: 10vw;
+    height: 5vw;
+    background-color: #0e1d21;
+    color: #f7f8f8;
+    font-size: 1vw;
+    border-radius: 5vw;
+    box-shadow: #0b0c0c 0.5vw 0vw 0.8vw 0vw;
+   
+}
+#botonhabi1:hover{
+    background-color: #102f36;
+    transform: scale(1.1);
 }
