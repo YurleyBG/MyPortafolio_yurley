@@ -312,7 +312,7 @@
     }
     #divHabiServi{
         width: 100vw;
-        height: 210vw;
+        height: 250vw;
         border: 1px solid black;
         background-color:#69818D;
         border-bottom-right-radius: 5vw;
@@ -375,7 +375,7 @@
     #tituloL{
         position: relative;
         left: 17vw;
-        top: 78vw;
+        top: 110vw;
         width: 80vw;
         height: 5vw;
         font-size: 5vw;
@@ -389,7 +389,7 @@
         justify-content: center;
         position: relative;
         left: -0.5vw;
-        top: 80vw;
+        top: 115vw;
         width: 90vw;
         height: 20vw;
         background-color: #0e1d21;
@@ -434,7 +434,7 @@
         display: flex;
         justify-content:space-around;
         align-items: center;
-        width: 40vw;
+        width: 45vw;
         height: 4vw;
         color: #69818D;
         font-size: 2vw;
@@ -450,7 +450,7 @@
     #tituloL1{
         position: relative;
         left: 22vw;
-        top: 70vw;
+        top: 78vw;
         width: 60vw;
         height: 5vw;
         font-size: 5vw;
@@ -460,26 +460,28 @@
     }
     #barraHabiBlanda {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content:space-around;
         position: relative;
-        left: 1vw;
-        top: 75vw;
-        width: 96vw;
+        left:-1vw;
+        top: 85vw;
+        width: 80vw;
         height: 6vw;
         margin: 2vw auto;
         border-radius: 3vw;
+        gap: 1.2vw;
     }
     #botonhabi{
         display: flex;
         text-align: center;
         justify-content: center;
-        padding: 1vw;
-        width: 13vw;
-        height: 8vw;
+        padding: 3.5vw;
+        width: 18vw;
+        height: 15vw;
         background-color: #0e1d21;
         color: #f7f8f8;
-        font-size: 1.5vw;
+        font-size: 2vw;
         border-radius: 5vw;
         box-shadow: #0b0c0c 0.5vw 0vw 0.8vw 0vw;
         font-family: BriemHand;
@@ -494,12 +496,12 @@
         display: flex;
         text-align: center;
         justify-content: center;
-        padding: 1.8vw;
-        width: 13vw;
-        height: 8vw;
+        padding: 6vw;
+        width: 18vw;
+        height: 15vw;
         background-color: #0e1d21;
         color: #f7f8f8;
-        font-size: 1.3vw;
+        font-size:2vw;
         border-radius: 5vw;
         box-shadow: #0b0c0c 0.5vw 0vw 0.8vw 0vw;
        
