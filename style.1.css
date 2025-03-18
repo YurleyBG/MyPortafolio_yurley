@@ -536,11 +536,12 @@
     #textTiTle{
         position: relative;
         top: 4vw;
-        left: 25vw;
+        left: 28vw;
         width: 200vw;
         height: 16vw;
     }
     #Contactame{
+        font-family: BriemHand;
         display: flex;
         text-align: center;
         justify-content: center;
@@ -550,6 +551,7 @@
         font-size: 5vw;
     }
     #frase{
+        font-family: AtemicaSans;
         display: flex;
         text-align: center;
         justify-content: center;
@@ -564,7 +566,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        top: 25vw;
+        top: 22vw;
         left: -22vw;
         width: 220vw;
         height: 70vw;
